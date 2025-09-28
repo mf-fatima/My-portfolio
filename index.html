@@ -62,7 +62,7 @@
   </header>
 
   <!-- JS for Toggle -->
-  <script>
+  <script type="module">
     const btn = document.getElementById('menu-btn');
     const menu = document.getElementById('menu');
 
@@ -171,7 +171,7 @@
       <div class="grid md:grid-cols-3 gap-10">
         <!-- FYP -->
         <div class="bg-gray-900 rounded-xl shadow-lg overflow-hidden hover:scale-105 transition">
-          <img src="food and rental.png" alt="Food & Rental App" class="w-full h-48 object-cover">
+          <img src="food_rental.png" alt="Food & Rental App" class="w-full h-48 object-cover">
           <div class="p-6">
             <h3 class="text-xl font-bold mb-2">Food & Rental App</h3>
             <p class="text-gray-400 text-2xl mb-3">A mobile app for students & workers to find home-cooked meals and
@@ -182,7 +182,7 @@
         </div>
         <!-- WordPress Store -->
         <div class="bg-gray-900 rounded-xl shadow-lg overflow-hidden hover:scale-105 transition">
-          <img src="DNK store.png" alt="Clothing Store" class="w-full h-48 object-cover">
+          <img src="DNK_store.png" alt="Clothing Store" class="w-full h-48 object-cover">
           <div class="p-6">
             <h3 class="text-xl font-bold mb-2">Clothing Store (WordPress)</h3>
             <p class="text-gray-400 text-2xl mb-3">An e-commerce store with modern UI and integrated payment systems.
@@ -193,7 +193,7 @@
         </div>
         <!-- Hospital System -->
         <div class="bg-gray-900 rounded-xl shadow-lg overflow-hidden hover:scale-105 transition">
-          <img src="hospital_management system.png" alt="Hospital Management System" class="w-full h-48 object-cover">
+          <img src="hospital_management _system.png" alt="Hospital Management System" class="w-full h-48 object-cover">
           <div class="p-6">
             <h3 class="text-xl font-bold mb-2">Hospital Management System</h3>
             <p class="text-gray-400 text-2xl mb-3">A desktop application built in C# for hospital workflow automation.
@@ -250,9 +250,9 @@
   </footer>
 
   <!-- Scripts -->
-  <script type="module" src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>AOS.init({ duration: 700, once: true });</script>
-  <script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script >AOS.init({ duration: 700, once: true });</script>
+  <script >
     const roles = ["Full Stack Developer", "Frontend Developer", "WordPress Developer", "Freelancer"];
     let r = 0, i = 0, del = false;
     const el = document.getElementById("typing-text");
